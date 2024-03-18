@@ -50,7 +50,7 @@ jobs:
       - name: Upload Information Security Policy Framework PDF artifact
         uses: actions/upload-artifact@v2
         with:
-          name: pdf-artifact
+          name: information-security-policy-framework-pdf-artifact
           path: "information-security-policy-framework-${{ steps.timestamp.outputs.timestamp }}.pdf"
 
       - name: Compile Executive Report to PDF
@@ -61,5 +61,5 @@ jobs:
       - name: Upload Executive Report PDF artifact
         uses: actions/upload-artifact@v2
         with:
-          name: pdf-artifact
+          name: executive-report-pdf-artifact
           path: "executive-report-${{ steps.timestamp.outputs.timestamp }}.pdf"
