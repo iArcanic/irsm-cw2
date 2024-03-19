@@ -14,11 +14,13 @@ csl: harvard-imperial-college-london.csl
 
 <!-- 150-200 words -->
 
-This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies and procedures that are specifically designed for the company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a significant revenue incentive (30%), it is important to demonstrate the relevant compliance with all necessary regulations.
+This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies and procedures that are specifically designed for the company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a significant revenue incentive (30%), it is important to demonstrate relevant compliance with all necessary regulations.
 
-The mentioned framework covers a wide range of policy areas, most notably data protection, secure configurations, risk management, access controls, incident response, and much more. The policies are matched to an according UK standard, such as NCSC guidelines, Data Protection Act 2018, NIST controls, to name a few.
+The mentioned framework covers a wide range of policy areas, most notably data protection, secure configurations, risk management, access controls, incident response, and much more. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018, and NIST controls, to name a few.
 
-By integrating this framework into the company's IT infrastructure, it will not only secure the company's assets (i.e. systems and data assets) but also guarantees that it satisfies contracts with the UK Government. The report will also address policies and procedures which are marked as "$High$" within the framework, as well as key security controls to deal with them, supporting policies marked as "$Medium$" which supplement the main policies, and finally a high-level implementation plan to practically meet the criteria of this framework.
+Integrating this framework into the company's IT infrastructure, will not only secure the company's assets (i.e. systems and data assets) but also guarantee that it satisfies contracts with the UK Government. The report will also address policies and procedures which are marked as "$High$" within the framework, as well as key security controls to deal with them, supporting policies marked as "$Medium$" which supplement the main policies, and finally a high-level implementation plan to practically meet the criteria of this framework.
+
+The recommendations and the plan provided by the framework, if adopted correctly by the company, can demonstrate its competence in its information security practices, and risk mitigation as identified in the previous risk assessment, and form a robust security foundation for the company that will undoubtedly help with future contracts.
 
 # 2 High priority policies and procedures
 
