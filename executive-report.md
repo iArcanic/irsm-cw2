@@ -28,25 +28,35 @@ The recommendations and the plan provided by the framework, if adopted correctly
 
 ## 2.1 Access control policy
 
-<!-- 100 words -->
+<!-- 150-200 words -->
+
+A strong access control procedure ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, systems, and applications based on their permissions and applicable business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary job functions. By deliberating excess permissions can increase risks of insider threats and potentially result in internal data breaches.
+
+This policy is in alignment with access control requirements detailed in the NIST Special Publication 800-171 [@nist2020] and the UK Government Security Policy Framework [@govuk2022]. Key elements of this policy will include:
+
+- Regular reviews of user access rights with the intention to promote lesser privileges
+- Multi-factor authentication algorithms for systems that handle sensitive data
+- Stricter controls around admin-level access systems
+- Logging and monitoring mechanisms
+- Swiftly revoking access for terminated employees
+
+This policy, enforced through technical controls too, is vital for managing which users have access company assets to prevent unathorised access.
 
 ## 2.2 Data protection policy
 
-<!-- 100 words -->
+<!-- 150-200 words -->
 
 ## 2.3 Risk management policy
 
-<!-- 100 words -->
+<!-- 150-200 words -->
 
 ## 2.4 Encryption policy
 
-<!-- 100 words -->
+<!-- 150-200 words -->
 
 ## 2.5 Secure configuration policy
 
-<!-- 100 words -->
-
-## 2.6 Vulnerability management policy
+<!-- 150-200 words -->
 
 # 3 Key security controls
 
