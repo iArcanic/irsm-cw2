@@ -30,7 +30,7 @@ The recommendations and the plan provided by the framework, if adopted correctly
 
 <!-- 150-200 words -->
 
-A strong access control procedure ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, systems, and applications based on their permissions and applicable business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary job functions. By deliberating excess permissions can increase risks of insider threats and potentially result in internal data breaches.
+A strong Access Control Policy ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, systems, and applications based on their permissions and applicable business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary job functions. By deliberating excess permissions can increase risks of insider threats and potentially result in internal data breaches.
 
 This policy is in alignment with access control requirements detailed in the NIST Special Publication 800-171 [@nist2020] and the UK Government Security Policy Framework [@govuk2022]. Key elements of this policy will include:
 
@@ -45,6 +45,20 @@ This policy, enforced through technical controls too, is vital for managing whic
 ## 2.2 Data protection policy
 
 <!-- 150-200 words -->
+
+Securing the confidentiality, integrity, and availability of the company's data is essential. Therefore, this Data Protection Policy will outline some measures that are compliant with both the UK Data Protection Act 2018 [@govuk2018] and UK GDPR [@eu2016] requirements.
+
+Key aspects of this policy will include:
+
+- Data classification guidelines to accurately define what data is sensitive
+- Breach notifications and processes that are in compliance with GDPR Article 33 [@intersoftconsulting]
+- Clear defines roles and responsibilities for both data owners and users
+- Compulsory security awareness training for users and employees to undergo before interacting with company systems
+- Third-party data processing management and controls
+- Processes and procedures for data handling including its lifecycle (i.e. creation and destruction)
+- Technical controls, such as encryption, logging, access restrictions, and so on
+
+The rigorous enforcement of this policy will arguably help to protect one of the company's most important assets and demonstrate to governments a strong commitment to ensuring, at all times, the confidentiality, integrity, and availability of this data.
 
 ## 2.3 Risk management policy
 
