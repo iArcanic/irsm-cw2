@@ -26,6 +26,28 @@ The recommendations and the plan provided by the framework, if adopted correctly
 
 <!-- 600-700 words -->
 
+## 2.1 Access control policy
+
+<!-- 100 words -->
+
+## 2.2 Data protection policy
+
+<!-- 100 words -->
+
+## 2.3 Risk management policy
+
+<!-- 100 words -->
+
+## 2.4 Encryption policy
+
+<!-- 100 words -->
+
+## 2.5 Secure configuration policy
+
+<!-- 100 words -->
+
+## 2.6 Vulnerability management policy
+
 # 3 Key security controls
 
 <!-- 400-500 words -->
