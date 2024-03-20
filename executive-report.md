@@ -150,6 +150,17 @@ The controls here will ultimately lead to a more structured approach, where data
 
 <!-- 100 words -->
 
+Most of the policies highlighted in this report along with the previous controls rely upon strong technical cryptographic measures to protect sensitive data traversing the organisation's systems. The ways in which this can be achieved are as follows:
+
+- Only cryptographic modules, which are validated by FIPS 140-2 [@nist2001] with a keys using of a minimum length of 256 bits will be used
+- AES encryption to be used for encryption of data at rest, or any other similar algorithm
+- Data in transit over networks that are untrusted will use protocols such as TLS (exceeding version 1.2), SSH, and IPsec
+- All stages in the cryptographic key management lifecycle should be thoroughly documented and updated if any changed do occur
+- Verify key storage means, such as if the Public Key Infrastructure (PKI) and Hardware Security Module (HSM) used are secure themselves
+- Any insecure algorithms, protocols, ciphers, or cryptography logic that does not confirm to the NIST's FIPS 140-2 [@nist2001] framework or NCSC guidelines will be disallowed
+
+The controls here, based on certified cybersecurity frameworks and industry best practices will help in providing strong protection against threats concerning data.
+
 ## 3.5 Secure baseline configurations
 
 <!-- 100 words -->
