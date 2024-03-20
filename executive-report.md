@@ -73,9 +73,23 @@ This Risk Management Policy was inspired by best practice frameworks such as NIS
 
 Integrating the specific security controls and measures will be heavily influenced by the risks identified in the risk register and recommendations as a result of the risk assessment. Such an approach can confirm that resources and security efforts are coordinated to be efficiently focussed on mitigating the highest priority risks to the company.
 
-## 2.4 Encryption policy
+## 2.4 Encryption Policy
 
 <!-- 150-200 words -->
+
+Encryptions controls will allow for any sensitive data that the company holds to be effectively retained securely for its confidentiality but also to comply with UK governmental standards. This Encryption Policy will serve as a directive to use industry level cryptographic algorithms across the IT infrastructure landscape.
+
+This policy considers data when its in three different states:
+
+- Data at rest: all confidential data stored on endpoint devices, removable media, servers, backups, and so on must be encrypted using a protocol mentioned in NIST's FIPS 140-2 [@nist2001] with a key of a suitable length that balances both performance and security
+- Data in transit: transmission of sensitive data taking place over untrusted or public networks should utilise technical protocols with authorised cipher suites
+- Backup data: Confidential data should be encrypted effectively to protect against breaches or exposure risks during either transit or storage
+
+Regarding cryptographic key management, this policy also specifies requirements with respect to key management lifecycle stages [@warner2022]. Those being periodic key rotation, recovery processes, key storage, and retrieval, all in alignment with NCSC guidelines [@ncsc2022].
+
+In addition, this policy also disallows the use of third-party or insecure cryptographic algorithms that are not widely recognised or documented by standards such as NIST or FIPS or included within the the UK government cipher recommendations.
+
+Regular attention to this Encryption Policy will allow for sensitive data to be protected at all times and enforce regulatory compliance.
 
 ## 2.5 Secure configuration policy
 
