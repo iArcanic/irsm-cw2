@@ -109,13 +109,32 @@ The policy will mandate formality when managing configurations, and also when mi
 
 ## 3.1 Access controls
 
+<!-- 100 words -->
+
+Access controls will be implemented via a unified Identity Access Management (IAM) system. Through this, it will include:
+
+- A Role-Based Access Control (RBAC) scheme for controlling permissions on a granular level
+- Automated and periodic user account activation and deactivation
+- Audit logging and monitoring schemes of access activities and permission granting or revoking
+- Multi-factor authentication protocols for access to high risk or admin systems
+
+These IAM controls will span across the whole IT infrastructure landscape such as on-site system, cloud applications, and external third-party systems. It also fits in with the principle of least privilege.
+
 ## 3.2 Data protection controls
+
+<!-- 100 words -->
 
 ## 3.3 Risk management controls
 
+<!-- 100 words -->
+
 ## 3.4 Cryptographic controls
 
+<!-- 100 words -->
+
 ## 3.5 Secure baseline configurations
+
+<!-- 100 words -->
 
 # 4 Supporting policies
 
@@ -125,10 +144,6 @@ The policy will mandate formality when managing configurations, and also when mi
 
 <!-- 400-500 words -->
 
-# 6 Conclusion
+# 6 Appendices
 
-<!-- 200-250 words -->
-
-# 7 Appendices
-
-# 8 Bibliography
+# 7 Bibliography
