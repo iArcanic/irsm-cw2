@@ -26,7 +26,7 @@ The recommendations and the plan provided by the framework, if adopted correctly
 
 <!-- 600-700 words -->
 
-## 2.1 Access control policy
+## 2.1 Access Control Policy
 
 <!-- 150-200 words -->
 
@@ -42,7 +42,7 @@ This policy is in alignment with access control requirements detailed in the NIS
 
 This policy, enforced through technical controls too, is vital for managing which users have access company assets to prevent unathorised access.
 
-## 2.2 Data protection policy
+## 2.2 Data Protection Policy
 
 <!-- 150-200 words -->
 
@@ -60,9 +60,18 @@ Key aspects of this policy will include:
 
 The rigorous enforcement of this policy will arguably help to protect one of the company's most important assets and demonstrate to governments a strong commitment to ensuring, at all times, the confidentiality, integrity, and availability of this data.
 
-## 2.3 Risk management policy
+## 2.3 Risk Management Policy
 
-<!-- 150-200 words -->
+A fully encompassing Risk Management Policy is intrinsic to forming a workable information security program. The policy will encourage systematic and regular risk assessments to be conducted (similar to the previous one) across the IT infrastructure landscape, including people, processes, systems, applications, data, and any other related assets. Potential risks will be identified as a result of this, and are rated by their likelihood of occurring and the impact that they would have on general business operations.
+
+This Risk Management Policy was inspired by best practice frameworks such as NIST SP 800-39 [@nist2011] and ISO 27001 [@iso2022] whilst also in alignment with the UK Government's Cyber Essentials [@ncsc2023]. This policy takes into account the following criteria:
+
+- Identifying vulnerable assets, threats they are at risk to, and risk scenarios
+- Calculating the impact of risk exposure both quantitatively and qualitatively
+- Selecting and deciding the best implementation techniques on risk treatment options
+- Deciding upon a long term risk monitoring and review process
+
+Integrating the specific security controls and measures will be heavily influenced by the risks identified in the risk register and recommendations as a result of the risk assessment. Such an approach can confirm that resources and security efforts are coordinated to be efficiently focussed on mitigating the highest priority risks to the company.
 
 ## 2.4 Encryption policy
 
