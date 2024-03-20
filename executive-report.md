@@ -107,6 +107,16 @@ The policy will mandate formality when managing configurations, and also when mi
 
 <!-- 400-500 words -->
 
+## 3.1 Access controls
+
+## 3.2 Data protection controls
+
+## 3.3 Risk management controls
+
+## 3.4 Cryptographic controls
+
+## 3.5 Secure baseline configurations
+
 # 4 Supporting policies
 
 <!-- 300-400 words -->
