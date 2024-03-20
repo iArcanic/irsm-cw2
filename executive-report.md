@@ -91,9 +91,17 @@ In addition, this policy also disallows the use of third-party or insecure crypt
 
 Regular attention to this Encryption Policy will allow for sensitive data to be protected at all times and enforce regulatory compliance.
 
-## 2.5 Secure configuration policy
+## 2.5 Secure Configuration Policy
 
 <!-- 150-200 words -->
+
+A hardening criteria and secure configuration baseline is foundational for minimising the attack surface on the company's technology assets. The Secure Configuration Policy determines strict standards and settings needed for securing technical assets such as servers, network devices, and endpoint devices to stop threat actors from exploiting weak configurations.
+
+Within the IT infrastructure, particularly for components such as servers and network devices, it is recommended to follow the vendor's hardening guidelines rather than individual configuration. This is in agreement with Centre of Internet Security (CIS) benchmarks, that are provided for each type of device and operating system. It means that areas like applying the latest patches, security logging, and unnecessary service disabling are all covered.
+
+In the same way for endpoint devices such as employee workstations are laptops, the policy entails that the NCSC End User Device (EUD) Security Guidance [@2ncsc2022] along with the appropriate CIS benchmarks be consolidated within the IT infrastructure for a robust defense.
+
+The policy will mandate formality when managing configurations, and also when migrating from one hardening baseline to another. Variations need to be approved to ensure that they follow verified benchmarks and have a risk assessment conducted upon it. The result from this assessment will provide confidence that the existing IT infrastructure is not compromised. Furthermore, it should also be throughly tested in a production environment and monitored for a short period of time before it can be fully marked as functional and secure.
 
 # 3 Key security controls
 
