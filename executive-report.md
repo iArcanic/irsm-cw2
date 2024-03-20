@@ -131,11 +131,20 @@ Data protection controls will maintain the confidentiality, integrity, and avail
 - Secure backup schemes with thorough data restoration protocols and offsite storage
 - Encryption of data at rest, in transit, and when being backed-up
 
-Having multi-layered controls makes it significantly harder when a malicious threat actor intents to penetrate security defences.
+Having multi-layered controls makes it significantly harder when a malicious threat actor intents to penetrate security defenses.
 
 ## 3.3 Risk management controls
 
 <!-- 100 words -->
+
+In-depth risk management controls will help to methodically pinpoint, evaluate, and analyse information security risks across the company's IT infrastructure. For this, it will include:
+
+- Continuous risk monitoring, suggested action paths, and reviews based on previous actions taken to address the risk
+- Integration and synchronisation with other control areas, such as incident response and vulnerability management
+- Thorough risk calculation method with factors such as impact, likelihood, and other factors
+- Maintaining a company wide risk register that is constantly updated with the latest risks, threat scenarios, and vulnerability data from risk assessments conducted or credible cybersecurity vendors
+
+The controls here will ultimately lead to a more structured approach, where data is placed at the forefront of the assets to protect. These controls are in agreement with well known frameworks such as NIST 800-39 [@nist2011] and ISO 27001 [@iso2022].
 
 ## 3.4 Cryptographic controls
 
