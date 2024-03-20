@@ -97,7 +97,7 @@ Regular attention to this Encryption Policy will allow for sensitive data to be 
 
 A hardening criteria and secure configuration baseline is foundational for minimising the attack surface on the company's technology assets. The Secure Configuration Policy determines strict standards and settings needed for securing technical assets such as servers, network devices, and endpoint devices to stop threat actors from exploiting weak configurations.
 
-Within the IT infrastructure, particularly for components such as servers and network devices, it is recommended to follow the vendor's hardening guidelines rather than individual configuration. This is in agreement with Centre of Internet Security (CIS) benchmarks, that are provided for each type of device and operating system. It means that areas like applying the latest patches, security logging, and unnecessary service disabling are all covered.
+Within the IT infrastructure, particularly for components such as servers and network devices, it is recommended to follow the vendor's hardening guidelines rather than individual configuration. This is in agreement with Center of Internet Security (CIS) benchmarks, that are provided for each type of device and operating system. It means that areas like applying the latest patches, security logging, and unnecessary service disabling are all covered.
 
 In the same way for endpoint devices such as employee workstations are laptops, the policy entails that the NCSC End User Device (EUD) Security Guidance [@2ncsc2022] along with the appropriate CIS benchmarks be consolidated within the IT infrastructure for a robust defense.
 
@@ -165,6 +165,16 @@ The controls here, based on certified cybersecurity frameworks and industry best
 
 <!-- 100 words -->
 
+Secure baseline configurations with hardening guidelines can considerably reduce the attack surface from threats on company systems and endpoint devices. This can be through:
+
+- Implementation of Center for Internet Security (CIS) benchmark recommendations based on the specific OS being used for servers, network devices, and so on
+- Removal and disabling of unused services, protocols, and ports based on results of a technical risk assessment
+- Consistent and regular patches from credible and well known sources only
+- Following the Change Management Policy when business needs require deviations from established baselines
+- Reliable security logging, auditing, monitoring, and informative documentation on activities of IT components
+
+Aligning secure baseline configurations with industry standard recommendations will help in remediating vulnerabilities that could potentially be exploited.
+
 # 4 Supporting policies
 
 <!-- 300-400 words -->
@@ -173,6 +183,4 @@ The controls here, based on certified cybersecurity frameworks and industry best
 
 <!-- 400-500 words -->
 
-# 6 Appendices
-
-# 7 Bibliography
+# 6 Bibliography
