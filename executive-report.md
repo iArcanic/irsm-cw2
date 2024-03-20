@@ -124,6 +124,15 @@ These IAM controls will span across the whole IT infrastructure landscape such a
 
 <!-- 100 words -->
 
+Data protection controls will maintain the confidentiality, integrity, and availability of the company's sensitive data assets. These include:
+
+- Data classification and post processing actions based on sensitivity and value of the data
+- Data loss prevention mechanisms to help recover data in the event of unauthorised data usage or transfer
+- Secure backup schemes with thorough data restoration protocols and offsite storage
+- Encryption of data at rest, in transit, and when being backed-up
+
+Having multi-layered controls makes it significantly harder when a malicious threat actor intents to penetrate security defences.
+
 ## 3.3 Risk management controls
 
 <!-- 100 words -->
