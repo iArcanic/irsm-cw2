@@ -179,7 +179,7 @@ Aligning secure baseline configurations with industry standard recommendations w
 
 <!-- 400-500 words -->
 
-A practical implementation of the Information Security Framework will require a detailed deployment plan, comprehensive change management processes, and well defined responsibilities spanning the organisation.
+A practical implementation of the Information Security Framework will require a detailed deployment plan, comprehensive change management processes, and well defined responsibilities spanning the organisation. Through following this planned implementation road map in addition to introducing established roles and change management processes, the company can effectively adhere to the Information Security Framework in a sustainable manner.
 
 ## 4.1 Deployment plan
 
@@ -204,5 +204,22 @@ The implementation of this framework will followed an approach separated into ti
 - Establish data backup and recovery processes
 
 ## 4.2 Change management
+
+Updates or changed to the information security framework depending upon evolving business needs need to follow all procedures outlined in the Change Management Policy. This involves:
+
+- Conducted risk assessments, workflows tested and approved before integrating within IT infrastructure
+- Logging and auditing the implemented changes and their impacts, monitoring whether they compromise existing assets
+- Have emergency provisions to rollback changes in the event that they jeopardise existing IT components
+
+### 4.2.1 Roles and responsibilities
+
+Having clear roles and responsibilities across multiple stakeholder categories, such as IT operations, management, and security teams will also be considered under change management processes.
+
+- Executive sponsors: consists of a funding and resource program to support information security endeavors
+- CISO/security teams: provide oversight into the program, help to maintain and implement policies, and oversee security operations
+- IT operations: encompasses system administration, technical implementation of high-level controls
+- Data owners: management of data usage, flows, and transfers along compliance with the related policies and regulations
+- Employees/company personnel: comply with the Acceptable Use Policy and undertake mandatory security and compliance training
+- Third parties: confirm that third party vendors that the company relies upon comply to a coordinated policy
 
 # 5 Bibliography
