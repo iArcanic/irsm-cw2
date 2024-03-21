@@ -175,12 +175,26 @@ Secure baseline configurations with hardening guidelines can considerably reduce
 
 Aligning secure baseline configurations with industry standard recommendations will help in remediating vulnerabilities that could potentially be exploited.
 
-# 4 Supporting policies
-
-<!-- 300-400 words -->
-
-# 5 Implementation approach
+# 4 Implementation approach
 
 <!-- 400-500 words -->
 
-# 6 Bibliography
+A practical implementation of the Information Security Framework will require a detailed deployment plan, comprehensive change management processes, and well defined responsibilities spanning the organisation.
+
+## 4.1 Deployment plan
+
+The implementation of this framework will followed an approach separated into tiers or phases. Each phase will prioritise a vital security aspect first.
+
+### 4.1.1 Phase 1: Demonstrate oversight and governance
+
+- Form a reliable and well-informed information security governance committee with sponsorship from company executives
+- Have clear security roles allocated to qualified individuals, those being CISO, administrators (both technical and non-technical), and security designers
+- From the Risk Management Policy, enforce a risk management program
+
+### 4.1.2 Phase 2: Consider baseline controls
+
+- From the Secure Configuration Policy, administer secure configuration for IT infrastructure components (endpoint devices, servers, networks)
+- Access controls, permission, and identity management should be implemented
+- Incident response capabilities should be set up, including security monitoring and logging
+
+# 5 Bibliography
