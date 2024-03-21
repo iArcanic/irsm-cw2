@@ -16,7 +16,7 @@ csl: harvard-imperial-college-london.csl
 
 This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies and procedures that are specifically designed for the company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a significant revenue incentive (30%), it is important to demonstrate relevant compliance with all necessary regulations.
 
-The mentioned framework covers a wide range of policy areas, most notably data protection, secure configurations, risk management, access controls, incident response, and much more. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018, and NIST controls, to name a few.
+The mentioned framework covers a wide range of policy areas, most notably data protection, secure configurations, risk management, access controls, incident response, and much more. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018 [@govuk2018], and NIST controls, to name a few.
 
 Integrating this framework into the company's IT infrastructure, will not only secure the company's assets (i.e. systems and data assets) but also guarantee that it satisfies contracts with the UK Government. The report will also address policies and procedures which are marked as "$High$" within the framework, as well as key security controls to deal with them, supporting policies marked as "$Medium$" which supplement the main policies, and finally a high-level implementation plan to practically meet the criteria of this framework.
 
@@ -196,5 +196,13 @@ The implementation of this framework will followed an approach separated into ti
 - From the Secure Configuration Policy, administer secure configuration for IT infrastructure components (endpoint devices, servers, networks)
 - Access controls, permission, and identity management should be implemented
 - Incident response capabilities should be set up, including security monitoring and logging
+
+### 4.1.3 Phase 3: Prioritise data protection
+
+- Enforce regulatory compliance, such as with the Data Protection Act 2018 [@govuk2018], GDPR [@eu2016], and so on
+- Activate data protection controls, such as classification, Data Loss Prevention (DLP) tools, and encryption measures
+- Establish data backup and recovery processes
+
+## 4.2 Change management
 
 # 5 Bibliography
