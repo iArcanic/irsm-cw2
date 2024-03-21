@@ -2,9 +2,6 @@
 title: "Executive Report"
 author: "Preetham Ananthkumar – 2242090"
 bibliography: references.bib
-toc: true
-toc-title: Table of Contents
-toc-depth: 3
 geometry: "left=1.25cm, right=1.25cm, top=1.25cm, bottom=1.25cm"
 csl: harvard-imperial-college-london.csl
 ---
@@ -15,7 +12,7 @@ csl: harvard-imperial-college-london.csl
 
 <!-- 150-200 words -->
 
-This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies and procedures that are specifically designed for the company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a significant revenue incentive (30%), it is important to demonstrate relevant compliance with all necessary regulations.
+This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies and procedures that are specifically designed for the high-tech 400 employee company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a significant revenue incentive (30%), it is important to demonstrate relevant compliance with all necessary regulations. It is also worth nothing that currently, the company does not have any policies or controls in place which are government compliant as of yet.
 
 The mentioned framework covers a wide range of policy areas, most notably data protection, secure configurations, risk management, access controls, incident response, and much more. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018 [@govuk2018], and NIST controls, to name a few.
 
