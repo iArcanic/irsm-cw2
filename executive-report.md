@@ -8,30 +8,24 @@ csl: harvard-imperial-college-london.csl
 
 # 1 Introduction
 
-<!-- 150-200 words -->
+This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies that are specifically designed for the high-tech 400 employee company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a revenue incentive of 30%, it is important to demonstrate compliance with all necessary regulations. It is also worth nothing that currently, the company does not have any controls in place which are government compliant.
 
-This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies and procedures that are specifically designed for the high-tech 400 employee company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a significant revenue incentive (30%), it is important to demonstrate relevant compliance with all necessary regulations. It is also worth nothing that currently, the company does not have any policies or controls in place which are government compliant as of yet.
+The framework covers a wide range of policy areas. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018 [@govuk2018], and NIST controls, to name a few.
 
-The mentioned framework covers a wide range of policy areas, most notably data protection, secure configurations, risk management, access controls, incident response, and much more. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018 [@govuk2018], and NIST controls, to name a few.
+Integrating this framework into the IT infrastructure, will not only secure the company's assets but also guarantee that it satisfies contracts with the UK Government. The report will address policies which are marked as "$High$" within the framework, as well as key security controls to deal with them, and a high-level implementation plan to practically meet the criteria of this framework.
 
-Integrating this framework into the company's IT infrastructure, will not only secure the company's assets (i.e. systems and data assets) but also guarantee that it satisfies contracts with the UK Government. The report will also address policies and procedures which are marked as "$High$" within the framework, as well as key security controls to deal with them, supporting policies marked as "$Medium$" which supplement the main policies, and finally a high-level implementation plan to practically meet the criteria of this framework.
-
-The recommendations and the plan provided by the framework, if adopted correctly by the company, can demonstrate its competence in its information security practices, and risk mitigation as identified in the previous risk assessment, and form a robust security foundation for the company that will undoubtedly help with future contracts.
+The recommendations provided by the framework, if adopted correctly by the company, can demonstrate competence in its information security practices, risk mitigation, and form a security foundation for the company that will help with future contracts.
 
 # 2 High priority policies and procedures
 
-<!-- 600-700 words -->
-
 ## 2.1 Access Control Policy
 
-<!-- 150-200 words -->
-
-A strong Access Control Policy ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, systems, and applications based on their permissions and applicable business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary job functions. By deliberating excess permissions can increase risks of insider threats and potentially result in internal data breaches. Specifically, this applies to components of the IT infrastructure, such as the Active Directory environment, ERP applications, email servers, and all endpoint devices.
+An Access Control Policy ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, systems, and applications based on their permissions and business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary functions. Deliberating excess permissions can increase risks of insider threats and potentially result in data breaches. Specifically, this applies to the Active Directory environment, ERP applications, email servers, and all endpoint devices.
 
 This policy is in alignment with access control requirements detailed in the NIST Special Publication 800-171 [@nist2020] and the UK Government Security Policy Framework [@govuk2022]. Key elements of this policy will include:
 
 - Regular reviews of user access rights with the intention to promote lesser privileges
-- Multi-factor authentication algorithms for systems that handle sensitive data
+- Multi-factor authentication algorithms for systems handling sensitive data
 - Stricter controls around admin-level access systems
 - Logging and monitoring mechanisms
 - Swiftly revoking access for terminated employees
@@ -40,9 +34,7 @@ This policy, enforced through technical controls too, is vital for managing whic
 
 ## 2.2 Data Protection Policy
 
-<!-- 150-200 words -->
-
-Securing the confidentiality, integrity, and availability of the company's data is essential. Therefore, this Data Protection Policy will outline some measures that are compliant with both the UK Data Protection Act 2018 [@govuk2018] and UK GDPR [@eu2016] requirements.
+Securing the confidentiality, integrity, and availability of the company's data is essential. Therefore, this Data Protection Policy will outline some measures that are compliant with the UK Data Protection Act 2018 [@govuk2018] and UK GDPR [@eu2016] requirements.
 
 Key aspects of this policy will include:
 
@@ -55,11 +47,11 @@ Key aspects of this policy will include:
 - Processes and procedures for data handling including its lifecycle (i.e. creation and destruction)
 - Technical controls, such as encryption, logging, access restrictions, and so on
 
-The rigorous enforcement of this policy will arguably help to protect one of the company's most important assets and demonstrate to governments a strong commitment to ensuring, at all times, the confidentiality, integrity, and availability of this data.
+The enforcement of this policy will help to protect one of the company's most important assets and demonstrate to governments a strong commitment to ensuring the confidentiality, integrity, and availability of this data.
 
 ## 2.3 Risk Management Policy
 
-A fully encompassing Risk Management Policy is intrinsic to forming a workable information security program. The policy will encourage systematic and regular risk assessments to be conducted (similar to the previous one) across the IT infrastructure landscape (Windows Server, Active Directory, ERP, R&D, Linux systems), including people, processes, systems, applications, data, and any other related assets. Potential risks will be identified as a result of this, and are rated by their likelihood of occurring and the impact that they would have on general business operations.
+A fully encompassing Risk Management Policy is intrinsic to forming a workable information security program. The policy will encourage regular risk assessments to be conducted across the IT infrastructure landscape (Windows Server, Active Directory, ERP, R&D, Linux systems), including people, processes, and data. Potential risks will be identified as a result of this, and are rated by their likelihood of occurring and their impact on business operations.
 
 This Risk Management Policy was inspired by best practice frameworks such as NIST SP 800-39 [@nist2011] and ISO 27001 [@iso2022] whilst also in alignment with the UK Government's Cyber Essentials [@ncsc2023]. This policy takes into account the following criteria:
 
@@ -68,45 +60,35 @@ This Risk Management Policy was inspired by best practice frameworks such as NIS
 - Selecting and deciding the best implementation techniques on risk treatment options
 - Deciding upon a long term risk monitoring and review process
 
-Integrating the specific security controls and measures will be heavily influenced by the risks identified in the risk register and recommendations as a result of the risk assessment. Such an approach can confirm that resources and security efforts are coordinated to be efficiently focussed on mitigating the highest priority risks to the company.
+Integrating the specific security controls and measures will be heavily influenced by the risks identified in the risk register and recommendations from the risk assessment. Such an approach can confirm that resources and security efforts are coordinated to be efficiently focussed on mitigating the highest priority risks.
 
 ## 2.4 Encryption Policy
 
-<!-- 150-200 words -->
-
-Encryptions controls will allow for any sensitive data that the company holds to be effectively retained securely for its confidentiality but also to comply with UK governmental standards. This Encryption Policy will serve as a directive to use industry level cryptographic algorithms across the IT infrastructure landscape.
+Encryptions controls will allow for any sensitive data that the company holds to be effectively retained securely for its confidentiality. This Encryption Policy will serve as a directive to use industry level cryptographic algorithms across the IT infrastructure.
 
 This policy considers data when its in three different states:
 
-- Data at rest: all confidential data stored on endpoint devices, removable media, servers, backups, and so on must be encrypted using a protocol mentioned in NIST's FIPS 140-2 [@nist2001] with a key of a suitable length that balances both performance and security
-- Data in transit: transmission of sensitive data taking place over untrusted or public networks should utilise technical protocols with authorised cipher suites
+- Data at rest: all confidential data stored on endpoint devices must be encrypted using a protocol mentioned in NIST's FIPS 140-2 [@nist2001] with a key of a suitable length that balances both performance and security
+- Data in transit: transmission of sensitive data taking place over untrusted networks should utilise technical protocols
 - Backup data: Confidential data should be encrypted effectively to protect against breaches or exposure risks during either transit or storage
 
 Regarding cryptographic key management, this policy also specifies requirements with respect to key management lifecycle stages [@warner2022]. Those being periodic key rotation, recovery processes, key storage, and retrieval, all in alignment with NCSC guidelines [@ncsc2022].
 
-In addition, this policy also disallows the use of third-party or insecure cryptographic algorithms that are not widely recognised or documented by standards such as NIST or FIPS or included within the the UK government cipher recommendations.
+In addition, this policy also disallows the use of third-party or insecure cryptographic algorithms that are not documented by standards such as NIST or FIPS or included within the the UK government cipher recommendations.
 
 Regular attention to this Encryption Policy will allow for sensitive data to be protected at all times and enforce regulatory compliance.
 
 ## 2.5 Secure Configuration Policy
 
-<!-- 150-200 words -->
+A secure configuration baseline is foundational for minimising the attack surface on the company's technology assets. The Secure Configuration Policy determines strict standards and settings needed for securing technical assets such as servers, network devices, and endpoint devices to stop threat actors from exploiting weak configurations.
 
-A hardening criteria and secure configuration baseline is foundational for minimising the attack surface on the company's technology assets. The Secure Configuration Policy determines strict standards and settings needed for securing technical assets such as servers, network devices, and endpoint devices to stop threat actors from exploiting weak configurations.
+It is recommended to follow the vendor's hardening guidelines rather than individual configuration. This is in agreement with Center of Internet Security (CIS) benchmarks, that are provided for each type of device and operating system, especially for server components such as Linux Ubuntu web servers and Windows Server 2022. It means that areas like applying the latest patches, security logging, and unnecessary service disabling are all covered.
 
-It is recommended to follow the vendor's hardening guidelines rather than individual configuration. This is in agreement with Center of Internet Security (CIS) benchmarks, that are provided for each type of device and operating system. This is especially for server components such as Linux Ubuntu web servers and Windows Server 2022 which in itself provides AD, DNS, and DHCP. It means that areas like applying the latest patches, security logging, and unnecessary service disabling are all covered.
-
-In the same way for endpoint devices such as employee Windows workstations and laptops, the policy entails that the NCSC End User Device (EUD) Security Guidance [@2ncsc2022] along with the appropriate CIS benchmarks be consolidated within the IT infrastructure for a robust defense.
-
-The policy will mandate formality when managing configurations, and also when migrating from one hardening baseline to another. Variations need to be approved to ensure that they follow verified benchmarks and have a risk assessment conducted upon it. The result from this assessment will provide confidence that the existing IT infrastructure is not compromised. Furthermore, it should also be throughly tested in a production environment and monitored for a short period of time before it can be fully marked as functional and secure.
+The policy will mandate formality when managing configurations, and also when migrating from one hardening baseline to another. Variations need to be approved to ensure that they follow verified benchmarks and have risk assessments conducted. The result from this assessment will provide confidence that the existing IT infrastructure is not compromised.
 
 # 3 Key security controls
 
-<!-- 400-500 words -->
-
 ## 3.1 Access controls
-
-<!-- 100 words -->
 
 Access controls will be implemented via a unified Identity Access Management (IAM) system. Through this, it will include:
 
@@ -118,8 +100,6 @@ Access controls will be implemented via a unified Identity Access Management (IA
 These IAM controls will span across the whole IT infrastructure landscape such as on-site system, cloud applications, and external third-party systems. It also fits in with the principle of least privilege.
 
 ## 3.2 Data protection controls
-
-<!-- 100 words -->
 
 Data protection controls will maintain the confidentiality, integrity, and availability of the company's sensitive data assets. These include:
 
@@ -133,8 +113,6 @@ Having multi-layered controls makes it significantly harder when a malicious thr
 
 ## 3.3 Risk management controls
 
-<!-- 100 words -->
-
 In-depth risk management controls will help to methodically pinpoint, evaluate, and analyse information security risks across the company's IT infrastructure. For this, it will include:
 
 - Continuous risk monitoring, suggested action paths, and reviews based on previous actions taken to address the risk
@@ -142,13 +120,11 @@ In-depth risk management controls will help to methodically pinpoint, evaluate, 
 - Thorough risk calculation method with factors such as impact, likelihood, and other factors
 - Maintaining a company wide risk register that is constantly updated with the latest risks, threat scenarios, and vulnerability data from risk assessments conducted or credible cybersecurity vendors covering risks on Active Directory, Symantec products, and Microsoft Server
 
-The controls here will ultimately lead to a more structured approach, where data is placed at the forefront of the assets to protect. These controls are in agreement with well known frameworks such as NIST 800-39 [@nist2011] and ISO 27001 [@iso2022].
+The controls here will lead to a more structured approach, where data is placed at the forefront. These controls are in agreement with well known frameworks such as NIST 800-39 [@nist2011] and ISO 27001 [@iso2022].
 
 ## 3.4 Cryptographic controls
 
-<!-- 100 words -->
-
-Most of the policies highlighted in this report along with the previous controls rely upon strong technical cryptographic measures to protect sensitive data traversing the organisation's systems. The controls should be appropriate for Microsoft environments. The ways in which this can be achieved are as follows:
+Most of the along with the previous controls rely upon strong technical cryptographic measures to protect sensitive data. The controls should be appropriate for Microsoft environments. The ways in which this can be achieved are as follows:
 
 - Only cryptographic modules, which are validated by FIPS 140-2 [@nist2001] with a keys using of a minimum length of 256 bits will be used
 - AES encryption to be used for encryption of data at rest, or any other similar algorithm
@@ -161,8 +137,6 @@ The controls here, based on certified cybersecurity frameworks and industry best
 
 ## 3.5 Secure baseline configurations
 
-<!-- 100 words -->
-
 Secure baseline configurations with hardening guidelines can considerably reduce the attack surface from threats on company systems and endpoint devices. This can be through:
 
 - Implementation of Center for Internet Security (CIS) benchmark recommendations based on the specific OS being used for servers, network devices, and so on
@@ -172,17 +146,15 @@ Secure baseline configurations with hardening guidelines can considerably reduce
 - Reliable security logging, auditing, monitoring, and informative documentation on activities of IT components
 - Using built-in Microsoft security configurations and server templates
 
-Aligning secure baseline configurations with industry standard recommendations will help in remediating vulnerabilities that could potentially be exploited.
+Aligning secure baseline configurations with industry standard recommendations will help in remediating vulnerabilities.
 
 # 4 Implementation approach
 
-<!-- 400-500 words -->
-
-A practical implementation of the Information Security Framework will require a detailed deployment plan, comprehensive change management processes, and well defined responsibilities spanning the organisation. Through following this planned implementation road map in addition to introducing established roles and change management processes, the company can effectively adhere to the Information Security Framework in a sustainable manner.
+A practical implementation of the framework will require a deployment plan, change management processes, and defined responsibilities spanning the organisation. With this, the company can effectively adhere to the Information Security Framework sustainably.
 
 ## 4.1 Deployment plan
 
-The implementation of this framework will followed an approach separated into tiers or phases. Each phase will prioritise a vital security aspect first as this well help get all IT components to the required compliance level.
+The implementation of this framework will followed an approach separated into tiers or phases. Each phase will prioritise a vital security aspect as this will help get all IT components to the required compliance level.
 
 ### 4.1.1 Phase 1: Demonstrate oversight and governance
 
@@ -205,7 +177,7 @@ The implementation of this framework will followed an approach separated into ti
 
 ## 4.2 Change management
 
-Updates or changed to the information security framework depending upon evolving business needs need to follow all procedures outlined in the Change Management Policy. This involves:
+Updates or changed to the information security framework depending upon business needs need to follow all procedures outlined in the Change Management Policy. This involves:
 
 - Conducted risk assessments, workflows tested and approved before integrating within IT infrastructure
 - Logging and auditing the implemented changes and their impacts, monitoring whether they compromise existing assets
