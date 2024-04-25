@@ -8,29 +8,29 @@ csl: harvard-imperial-college-london.csl
 
 # 1 Introduction
 
-This executive report provides a brief but comprehensive insight into the proposed Information Security Policy Framework containing policies that are specifically designed for the high-tech 400 employee company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a revenue incentive of 30%, it is important to demonstrate compliance with all necessary regulations. It is also worth nothing that currently, the company does not have any controls in place which are government compliant.
+This executive report provides a brief but comprehensive insight into the Information Security Policy Framework containing policies that are specifically designed for the high-tech 400 employee company to be compliant with UK governmental security requirements. Since this is a "high-priority", "high-visibility" project with a revenue incentive of 30%, it is important to demonstrate compliance with all necessary regulations. It's worth nothing that currently, the company doesn't have any controls that are government compliant.
 
-The framework covers a wide range of policy areas. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018 [@govuk2018], and NIST controls, to name a few.
+The framework covers a wide range of policy areas. The policies are matched to an according UK standards, such as NCSC guidelines, the Data Protection Act 2018 [@govuk2018], and NIST controls.
 
 Integrating this framework into the IT infrastructure, will not only secure the company's assets but also guarantee that it satisfies contracts with the UK Government. The report will address policies which are marked as "$High$" within the framework, as well as key security controls to deal with them, and a high-level implementation plan to practically meet the criteria of this framework.
 
-The recommendations provided by the framework, if adopted correctly by the company, can demonstrate competence in its information security practices, risk mitigation, and form a security foundation for the company that will help with future contracts.
+The recommendations provided by the framework, if adopted correctly by the company, can demonstrate competence in information security practices, risk mitigation, and form a security foundation for the company that will help with future contracts.
 
 # 2 High priority policies and procedures
 
 ## 2.1 Access Control Policy
 
-An Access Control Policy ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, systems, and applications based on their permissions and business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary functions. Deliberating excess permissions can increase risks of insider threats and potentially result in data breaches. Specifically, this applies to the Active Directory environment, ERP applications, email servers, and all endpoint devices.
+An Access Control Policy ensures that only authorised individuals of the organisation can access components of the IT infrastructure, data, and systems based on their permissions and business needs. By enforcing the principle of least privilege in line with Article 5 of GDPR [@intersoftconsulting2], it will limit access rights for users to perform their necessary functions. Deliberating excess permissions can increase risks of insider threats and potentially result in data breaches. Specifically, this applies to the Active Directory environment, ERP applications, email servers, and all endpoint devices.
 
 This policy is in alignment with access control requirements detailed in the NIST Special Publication 800-171 [@nist2020] and the UK Government Security Policy Framework [@govuk2022]. Key elements of this policy will include:
 
-- Regular reviews of user access rights with the intention to promote lesser privileges
+- Regular reviews of access rights with the intention to promote lesser privileges
 - Multi-factor authentication algorithms for systems handling sensitive data
 - Stricter controls around admin-level access systems
 - Logging and monitoring mechanisms
 - Swiftly revoking access for terminated employees
 
-This policy, enforced through technical controls too, is vital for managing which users have access company assets to prevent unathorised access.
+This policy is vital for managing which users have access company assets to prevent unathorised access.
 
 ## 2.2 Data Protection Policy
 
@@ -126,7 +126,7 @@ The controls here will lead to a more structured approach, where data is placed 
 
 Most of the along with the previous controls rely upon strong technical cryptographic measures to protect sensitive data. The controls should be appropriate for Microsoft environments. The ways in which this can be achieved are as follows:
 
-- Only cryptographic modules, which are validated by FIPS 140-2 [@nist2001] with a keys using of a minimum length of 256 bits will be used
+- Only cryptographic modules, which are validated by FIPS 140-2 [@nist2001] with keys using of a minimum length of 256 bits
 - AES encryption to be used for encryption of data at rest, or any other similar algorithm
 - Data in transit over networks that are untrusted will use protocols such as TLS (exceeding version 1.2), SSH, and IPsec
 - All stages in the cryptographic key management lifecycle should be thoroughly documented and updated if any changed do occur
@@ -154,11 +154,11 @@ A practical implementation of the framework will require a deployment plan, chan
 
 ## 4.1 Deployment plan
 
-The implementation of this framework will followed an approach separated into tiers or phases. Each phase will prioritise a vital security aspect as this will help get all IT components to the required compliance level.
+The implementation of this framework will followed an approach separated into phases. Each phase will prioritise a vital security aspect to help get all IT components to the required compliance level.
 
 ### 4.1.1 Phase 1: Demonstrate oversight and governance
 
-- Form a reliable and well-informed information security governance committee with sponsorship from company executives
+- Form a reliable information security governance committee with sponsorship from company executives
 - Have clear security roles allocated to qualified individuals, those being CISO, administrators (both technical and non-technical), and security designers
 - From the Risk Management Policy, enforce a risk management program
 - Carry out a gap analysis on the existing IT infrastructure against the defined policies to establish a compliance baseline
@@ -177,9 +177,9 @@ The implementation of this framework will followed an approach separated into ti
 
 ## 4.2 Change management
 
-Updates or changed to the information security framework depending upon business needs need to follow all procedures outlined in the Change Management Policy. This involves:
+Updates to the information security framework depending upon business needs need to follow all procedures outlined in the Change Management Policy. This involves:
 
-- Conducted risk assessments, workflows tested and approved before integrating within IT infrastructure
+- Conducted risk assessments, workflows tested and approved before integrating with the IT infrastructure
 - Logging and auditing the implemented changes and their impacts, monitoring whether they compromise existing assets
 - Have emergency provisions to rollback changes in the event that they jeopardise existing IT components
 
@@ -190,8 +190,8 @@ Having clear roles and responsibilities across multiple stakeholder categories, 
 - Executive sponsors: consists of a funding and resource program to support information security endeavors
 - CISO/security teams: provide oversight into the program, help to maintain and implement policies, and oversee security operations
 - IT operations: encompasses system administration, technical implementation of high-level controls
-- Data owners: management of data usage, flows, and transfers along compliance with the related policies and regulations
-- Employees/company personnel: comply with the Acceptable Use Policy and undertake mandatory security and compliance training
-- Third parties: confirm that third party vendors that the company relies upon comply to a coordinated policy
+- Data owners: management of data usage, flows, and transfers
+- Employees/company personnel: comply with the Acceptable Use Policy and undertake mandatory compliance training
+- Third parties: confirm third party vendors that the company relies upon comply to a coordinated policy
 
 # 5 Bibliography

@@ -10,8 +10,8 @@ geometry: "left=1.75cm, right=1.75cm, top=1.75cm, bottom=1.75cm, landscape"
 
 The $Priority$ column is categorised as:
 
-- $High$: critical policies that are core to the IT infrastructure
-- $Med.$ ($Medium$): Important supporting policies, but much less critical
+- $High$: critical policies core to the IT infrastructure
+- $Med.$ ($Medium$): Important supporting policies, but less critical
 
 | Policy category             | Purpose                                                                                                                     | Relevant standard                                                                                                    | Priority | Applicable components                                                                               |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------- |
