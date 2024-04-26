@@ -1,6 +1,6 @@
 ---
 title: "Executive Report"
-author: "Preetham Ananthkumar – 2242090"
+author: "2242090"
 bibliography: references.bib
 geometry: "left=1.25cm, right=1.25cm, top=1.25cm, bottom=1.25cm"
 csl: harvard-imperial-college-london.csl
